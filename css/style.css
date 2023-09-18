@@ -1,0 +1,20 @@
+/* PÁGINA PRINCIPAL  E ELEMENTOS UNIVERSAIS*/
+body{background-color: gray;}
+.main-header-container{background-color: brown; width: 100%;}
+.main-title{padding: 1%; color: #f5f5f5;}
+.main-menu-container{margin-top: -8px;}
+.text-body-emphasis{margin-left: 4%}
+.text-body-secondary{margin-left: 4%}
+.main-title{text-align: center;}
+.click-link{text-decoration: None; color: white;}
+.click-link:hover{text-decoration: underline; color: lightgreen;}
+.navbar-toggler{margin-left: 5%;}
+.text-container{padding-top: 2%; background-color: red; margin-left: 5.5%; width: 88%; background-color: #F5F5F5;}
+.main-footer-container{background-color: #212529;bottom: 0; left: 0; position: fixed; width: 100%; height: 5%;}
+
+/* PÁGINA DE CADASTRO */
+
+.register-form-main-container{margin-top: 7.5%; margin-left: 25%; width: 50%;}
+
+/* PÁGINA DE RESULTADOS*/
+.result-table-container{margin-left: 5.5%; width: 88%;}
