@@ -4,7 +4,10 @@ from django.views import View
 
 class AppPages(View):
     def home_page(self, requests):
-        return render(requests, 'Shuffle/home.html')
+        soma1 = 1 + 1
+        soma2 = 2+2
+
+        return render(requests, 'Shuffle/home.html', context={'soma1': soma1, 'soma2':soma2})
 
     def cadastro_page(self, requests):
         return render(requests, 'Shuffle/cadastro.html')
